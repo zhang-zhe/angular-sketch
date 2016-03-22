@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	font-family: Arial;
+	background-image: url(../imgs/z.png);
+	background-size: cover;
+}
+.nametop{
+	width:200px;height: 100px;font-size: 50px;margin:0 auto;
+}
+#bg{
+	display: inline-block;
+	background: white;
+	border:none;
+}
+#controls{
+	width:300px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	background: rgba(120,120,120,0.4);
+	padding: 30px;
+	padding-top: 100px;
+}
+#drawregion{
+	position: absolute;
+	left:300px;
+	right:0;
+	top:0;
+	bottom:0;
+	padding-top: 100px;
+	padding-left: 200px;
+	/* background: url(../imgs/packed-4.png); */
+}
+#canvas{
+	box-shadow:  0 0 3px black;
+	display: block;
+	margin:0 auto;
+}
+#controls{
+	color:white;
+	font-size:34px;
+}
+.active{
+	color:yellow;
+}
+*{
+	cursor:pointer;
+}
